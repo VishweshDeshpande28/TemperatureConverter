@@ -1,0 +1,145 @@
+@media only screen and (min-width: 811px) {
+    h1 {
+        text-align: center;
+        color: #344041;
+        font-size: 8vh;
+        font-family: 'Arial';
+    }
+
+    #info {
+        text-align: center;
+        font-size: 3.6vh;
+        font-family: 'Arial';
+    }
+
+    #main {
+        width: fit-content;
+        height: fit-content;
+        margin: 4vh auto 0 auto;
+        background-color: #00ff2a;
+    }
+
+    #choices {
+        font-size: 2.7vh;
+        font-family: 'Arial';
+        text-align: center;
+        padding: 2vh;
+    }
+
+    .button {
+        margin-top: 1.4vh;
+        background-color: #00ffff;
+        font-family: 'Arial';
+        cursor: pointer;
+        user-select: none;
+        font-size: 2.1vh;
+        
+    }
+
+    #temp_buttons {
+        margin-left: inherit;
+        margin-right: inherit;
+        width: fit-content;
+        padding-bottom: 3vh;
+        padding-left: 2vw;
+        padding-right: 2vw;
+    }
+
+    #input_div {
+        width: fit-content;
+        margin: 1vh auto 0 auto;
+        
+    }
+
+    .output {
+        font-family: 'Arial';
+        font-size: 2.3vh;
+    }
+
+    #outputs {
+        width: fit-content;
+        margin: 1vh auto 0 auto;
+        padding-bottom: 4vh;
+    }
+
+    #footer_info {
+        color: #107883;
+        font-size: 2.3vh;
+        font-family: 'Arial';
+        text-align: center;
+        padding-bottom: 3vh;
+        padding-left: 2vw;
+        padding-right: 2vw;
+    }
+}
+
+@media only screen and (max-width: 810px) {
+    h1 {
+        text-align: center;
+        color: #50d8da;
+        font-size: 7vh;
+        font-family: 'Arial';
+    }
+
+    #info {
+        text-align: center;
+        font-size: 3.6vh;
+        font-family: 'Arial';
+    }
+
+    #main {
+        width: fit-content;
+        height: fit-content;
+        margin: 3vh auto 0 auto;
+        background-color: #70f5f7;
+    }
+
+    #choices {
+        font-size: 2.4vh;
+        font-family: 'Arial';
+        text-align: center;
+        padding: 2vh;
+    }
+
+    .button {
+        margin-top: 1.2vh;
+        background-color: #50d8da;
+        font-family: 'Arial';
+        cursor: pointer;
+        user-select: none;
+        font-size: 1.3vh;
+    }
+
+    #temp_buttons {
+        margin-left: inherit;
+        margin-right: inherit;
+        width: fit-content;
+        padding-bottom: 2vh;
+        padding-right: 2vw;
+        padding-left: 2vw;
+    }
+
+    #input_div {
+        width: fit-content;
+        margin: 1vh auto 0 auto;
+    }
+
+    .output {
+        font-family: 'Arial';
+    }
+
+    #outputs {
+        width: fit-content;
+        margin: 1vh auto 0 auto;
+        padding-bottom: 2vh;
+        font-size: 2.4vh;
+    }
+
+    #footer_info {
+        color: #107883;
+        font-size: 2.3vh;
+        font-family: 'Arial';
+        text-align: center;
+        padding-bottom: 2vh;
+    }
+}

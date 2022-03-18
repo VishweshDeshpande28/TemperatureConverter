@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Temperature Conversion</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="wdith=device-width, initial-scale=1.0">
+        <link href="style.css" rel="stylesheet">
+        <script src="script.js" defer></script>
+    </head>
+    
+    <body onload="hideAll()">    
+        <h1>Temperature Converter</h1>
+        <div id="info">Converts Celsius & Fahrenheit</div>
+        <div id="main">
+            <div id="choices">
+                What is your starting unit?
+            </div>
+            <div id="temp_buttons">
+                <button class="button" onclick="chosenF()">Fahrenheit</button>
+                <button class="button" onclick="chosenC()">Celsius</button>
+            </div>
+            <div id="input_div">
+                <input type="number" id="f_starting" oninput="convertNoF(this.value)" placeholder="Fahrenheit">
+                <input type="number" id="c_starting" oninput="convertNoC(this.value)" placeholder="Celsius">
+            </div>
+            <div id="outputs">
+                <div class="output" id="f_output">Fahrenheit value: </div>
+                <div class="output" id="c_output">Celsius value: </div>
+            </div>
+            </div>
+        </div>
+    </body>
+</html>
